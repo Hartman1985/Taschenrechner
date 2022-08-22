@@ -188,7 +188,7 @@ int pos =0;
 	gtk_widget_show_all(window);
 	gtk_main();
 	
-	if(minus2==1){
+/*	if(minus2==1){
 	ergebnis=erstezahl-zweitezahl;
 	printf("%i-%i = %i\n" ,erstezahl,zweitezahl,ergebnis);
 	minus2=0;
@@ -201,7 +201,7 @@ int pos =0;
 	zaehler=0;
         }
 	if(multi2==1){
-	ergebnis=erstezahl*zweitezahl;
+	ergebnis=erstezahl*zweitezahl						//Alte Logik mit Konsolenausgabe der Berechnung;
 	printf("%i*%i = %i\n" ,erstezahl,zweitezahl,ergebnis);
 	multi2=0;
 	zaehler=0;
@@ -211,7 +211,7 @@ int pos =0;
 	printf("%i/%i = %i\n" ,erstezahl,zweitezahl,ergebnis);
 	div2=0;
 	zaehler=0;
-	}
+	}*/
 	
 
 return 0;
